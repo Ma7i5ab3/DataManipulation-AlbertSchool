@@ -1,0 +1,4 @@
+order_id	customer	country	order_date	total	status
+00417	Hélène Dubois	France	2026-10-03	129.90	shipped
+00418	Marco Rossi	Spain	2026-10-04	45.00	delivered
+00419	Café Lumière	Germany	2026-10-05		pending

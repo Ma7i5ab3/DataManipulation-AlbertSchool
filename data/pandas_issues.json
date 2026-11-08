@@ -1,0 +1,2067 @@
+[
+  {
+    "number": 71942,
+    "title": "DOC: add WeekOfMonth and LastWeekOfMonth constructor signatures",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-07T11:10:22Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "sundeep8967",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71941,
+    "title": "BUG: to_sql writes timedelta64 columns in their own unit instead of nanoseconds (1000x too small with the default \"us\")",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-07T06:59:39Z",
+    "closed_at": null,
+    "comments": 2,
+    "user": {
+      "login": "maharanay22",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Needs Triage"
+      }
+    ]
+  },
+  {
+    "number": 71940,
+    "title": "BUG: groupby/resample ohlc raises ValueError for pyarrow numeric dtypes",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-07T06:22:27Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "Oscar-man-shrestha",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Groupby"
+      },
+      {
+        "name": "Arrow"
+      }
+    ]
+  },
+  {
+    "number": 71939,
+    "title": "DOC: clarify return type of any/all (GH#71475)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-06T20:12:59Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "Ashutosh2407",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71938,
+    "title": "Backport PR #71872 on branch 3.1.x (BUG: SparseArray unsupported-unit timedelta64 arithmetic and from_indices validation (GH#64808 follow-up))",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-06T18:33:12Z",
+    "closed_at": "2026-11-06T19:40:00Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Sparse"
+      }
+    ]
+  },
+  {
+    "number": 71937,
+    "title": "BUG: DataFrame constructor silently treating keys as rows for Mapping (GH#71853)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-06T14:53:08Z",
+    "closed_at": "2026-11-06T14:53:22Z",
+    "comments": 1,
+    "user": {
+      "login": "Sonal-sp",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71936,
+    "title": "DOC: note Windows timezone database requirement for pyarrow < 24 (#61782)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-06T07:06:01Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "elliothwang",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71935,
+    "title": "BUG: Index.get_loc raising TypeError for missing scalar key defining __iter__",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-06T05:31:32Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "10k11",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71934,
+    "title": "Backport PR #71915 on branch 3.1.x (BUG: Raise TypeError for non-string format in Timestamp.strftime)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T22:20:01Z",
+    "closed_at": "2026-11-06T01:02:08Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71933,
+    "title": "PERF: use a set in duplicated with keep=\"first\"/\"last\" (GH#39799)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T21:18:16Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "duplicated"
+      }
+    ]
+  },
+  {
+    "number": 71932,
+    "title": "PERF: cache sorted data in GroupBy across calls (GH#51077)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T21:15:11Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Groupby"
+      },
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "Needs Discussion"
+      }
+    ]
+  },
+  {
+    "number": 71931,
+    "title": "ENH: add usecols to read_sas (GH#37088)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T18:24:21Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Enhancement"
+      },
+      {
+        "name": "IO SAS"
+      }
+    ]
+  },
+  {
+    "number": 71930,
+    "title": "BUG: pivot, pivot_table and unstack raising on complex data (GH#25221)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T18:23:24Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Reshaping"
+      },
+      {
+        "name": "Complex"
+      }
+    ]
+  },
+  {
+    "number": 71929,
+    "title": "BUG: DataFrame constructor not copying input with extension dtype (GH#52338)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:54:44Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "Constructors"
+      },
+      {
+        "name": "Copy / view semantics"
+      }
+    ]
+  },
+  {
+    "number": 71928,
+    "title": "PERF: DataFrame.corr matrix product for data without NaNs (GH#40956)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:54:34Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "cov/corr"
+      }
+    ]
+  },
+  {
+    "number": 71927,
+    "title": "PERF: native groupby sum for PyArrow-backed strings (GH#60861)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:53:45Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Groupby"
+      },
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "Strings"
+      },
+      {
+        "name": "Arrow"
+      }
+    ]
+  },
+  {
+    "number": 71926,
+    "title": "PERF: avoid np.apply_along_axis in DataFrame.apply(raw=True) (GH#66203)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:53:01Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "Apply"
+      }
+    ]
+  },
+  {
+    "number": 71925,
+    "title": "BUG: json_normalize meta path not following record_path (GH#60254)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:52:15Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "IO JSON"
+      }
+    ]
+  },
+  {
+    "number": 71924,
+    "title": "PERF: faster tz-aware datetime formatting without a format (GH#44764)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:49:25Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Datetime"
+      },
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "Timezones"
+      }
+    ]
+  },
+  {
+    "number": 71923,
+    "title": "BUG: to_json(orient=\"table\") complex data unreadable by read_json (GH#50782)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:46:21Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "IO JSON"
+      },
+      {
+        "name": "Complex"
+      }
+    ]
+  },
+  {
+    "number": 71922,
+    "title": "PERF: avoid copying the numexpr result in pd.eval (GH#71806)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:43:45Z",
+    "closed_at": "2026-11-06T21:15:25Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "expressions"
+      }
+    ]
+  },
+  {
+    "number": 71921,
+    "title": "TST: read_parquet pyarrow backend keeps categorical index width (GH#58062)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:31:43Z",
+    "closed_at": "2026-11-06T16:05:12Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Testing"
+      },
+      {
+        "name": "IO Parquet"
+      },
+      {
+        "name": "Arrow"
+      }
+    ]
+  },
+  {
+    "number": 71920,
+    "title": "TST: arithmetic with mismatched-unit datetimelike indexes (GH#63417)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:31:38Z",
+    "closed_at": "2026-11-05T22:50:34Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Testing"
+      },
+      {
+        "name": "Non-Nano"
+      }
+    ]
+  },
+  {
+    "number": 71919,
+    "title": "TST: DataFrame(2D ndarray) copies to column-major blocks (GH#52438)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T17:26:28Z",
+    "closed_at": "2026-11-06T18:20:58Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Testing"
+      },
+      {
+        "name": "Constructors"
+      }
+    ]
+  },
+  {
+    "number": 71918,
+    "title": "BUG: np.nan not masked in FloatingArray when Series initialized with dtype=\"Float64\" from list containing strings",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-05T17:03:59Z",
+    "closed_at": null,
+    "comments": 3,
+    "user": {
+      "login": "GiTaDi-CrEaTe",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Missing-data"
+      },
+      {
+        "name": "NA - MaskedArrays"
+      }
+    ]
+  },
+  {
+    "number": 71917,
+    "title": "TST: groupby filter with dropna=False keeps NaN group (GH#44517)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T16:51:46Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "aniyow07",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71916,
+    "title": "BUG: excess precision when printing float32 values",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-05T10:41:29Z",
+    "closed_at": null,
+    "comments": 2,
+    "user": {
+      "login": "jdemeyer",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Output-Formatting"
+      }
+    ]
+  },
+  {
+    "number": 71915,
+    "title": "BUG: Raise TypeError for non-string format in Timestamp.strftime",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T04:37:18Z",
+    "closed_at": "2026-11-05T22:18:57Z",
+    "comments": 2,
+    "user": {
+      "login": "ishan-one8",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71914,
+    "title": "BUG: Timestamp.strftime raises AttributeError instead of TypeError for non-string format",
+    "state": "closed",
+    "is_pull_request": false,
+    "created_at": "2026-11-05T04:18:17Z",
+    "closed_at": "2026-11-05T22:18:58Z",
+    "comments": 4,
+    "user": {
+      "login": "ishan-one8",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Error Reporting"
+      }
+    ]
+  },
+  {
+    "number": 71913,
+    "title": "BUG: sort key ignored when it relabels an unordered Categorical (GH#58153)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T02:38:06Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "deonbinny7",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71912,
+    "title": "Backport PR #71879 on branch 3.1.x (BUG: plotting tz-aware datetimes with NaT raises ConversionError (GH#64613))",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-05T01:46:26Z",
+    "closed_at": "2026-11-05T15:47:16Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Visualization"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Timezones"
+      }
+    ]
+  },
+  {
+    "number": 71911,
+    "title": "TST: Index.map to tuples for flat Index types (GH#24800)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T23:23:32Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Testing"
+      },
+      {
+        "name": "Index"
+      }
+    ]
+  },
+  {
+    "number": 71909,
+    "title": "BUG: HDFStore.select returned wrong rows with where, start/stop and c…",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T19:28:23Z",
+    "closed_at": "2026-11-04T23:41:29Z",
+    "comments": 1,
+    "user": {
+      "login": "deonbinny7",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71908,
+    "title": "BUG: rank on object dtype swallowed comparison exceptions",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T18:34:59Z",
+    "closed_at": null,
+    "comments": 3,
+    "user": {
+      "login": "shi-felix",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71907,
+    "title": "Backport PR #71899 on branch 3.1.x (DOC: start 3.1.2 whatsnew notes)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T17:01:53Z",
+    "closed_at": "2026-11-04T18:46:41Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      }
+    ]
+  },
+  {
+    "number": 71906,
+    "title": "TST: replace with no match keeps object dtype (GH#53539)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T16:45:10Z",
+    "closed_at": "2026-11-04T23:29:41Z",
+    "comments": 2,
+    "user": {
+      "login": "aniyow07",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71905,
+    "title": "DOC: document that Styler methods modify the Styler in place (GH#59360)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T16:32:56Z",
+    "closed_at": "2026-11-06T16:05:41Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      },
+      {
+        "name": "Styler"
+      }
+    ]
+  },
+  {
+    "number": 71904,
+    "title": "DOC: note integer start/end are nanoseconds in timedelta_range (GH#8886)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T16:22:33Z",
+    "closed_at": "2026-11-06T16:06:17Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      },
+      {
+        "name": "Timedelta"
+      }
+    ]
+  },
+  {
+    "number": 71903,
+    "title": "BUG: validate array-like merge key lengths (GH#58279)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T16:21:45Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "lancy69",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71902,
+    "title": "[backport 3.1.x] CI: keep the /docs/dev symlink when publishing versioned docs (GH#71510) (#71524)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T15:22:53Z",
+    "closed_at": "2026-11-04T18:46:56Z",
+    "comments": 0,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71901,
+    "title": "DOC/MNT: update maintainer release guidelines",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T15:06:43Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      }
+    ]
+  },
+  {
+    "number": 71900,
+    "title": "Support callable replacements for regex matches",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T14:54:06Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "Kumar-Abhimanyu",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71899,
+    "title": "DOC: start 3.1.2 whatsnew notes",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T13:40:50Z",
+    "closed_at": "2026-11-04T17:00:46Z",
+    "comments": 0,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      }
+    ]
+  },
+  {
+    "number": 71898,
+    "title": "Backport PR #71896 on branch 3.1.x (DOC: cleanup 3.1.1 whatsnew)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T13:17:07Z",
+    "closed_at": "2026-11-04T13:35:14Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      }
+    ]
+  },
+  {
+    "number": 71897,
+    "title": "[backport 3.1.x] BUG: ffill/bfill on Arrow arrays without NA returns a view of the original (#71745)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T12:54:06Z",
+    "closed_at": "2026-11-04T13:16:32Z",
+    "comments": 0,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71896,
+    "title": "DOC: cleanup 3.1.1 whatsnew",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T10:34:51Z",
+    "closed_at": "2026-11-04T13:16:57Z",
+    "comments": 0,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      }
+    ]
+  },
+  {
+    "number": 71895,
+    "title": "Backport PR #71025 on branch 3.1.x (BUG: \\s and \\S in str regex methods missing Python whitespace characters for pyarrow-backed strings)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T09:04:24Z",
+    "closed_at": "2026-11-04T10:20:11Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Strings"
+      },
+      {
+        "name": "Arrow"
+      },
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71894,
+    "title": "[backport 3.1.x] DOC: avoid system-ui in default font-family for the docs (revert upstream theme change) (#71860)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T08:20:02Z",
+    "closed_at": "2026-11-04T08:37:26Z",
+    "comments": 0,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71893,
+    "title": "Backport PR #71782 on branch 3.1.x (BUG: py.path.local treated as an open buffer by IO functions (GH#71769))",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T08:18:18Z",
+    "closed_at": "2026-11-04T10:19:06Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "IO Data"
+      },
+      {
+        "name": "Regression"
+      }
+    ]
+  },
+  {
+    "number": 71892,
+    "title": "Bump zizmorcore/zizmor-action from 0.7.1 to 0.8.0",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T08:18:09Z",
+    "closed_at": "2026-11-04T09:18:01Z",
+    "comments": 0,
+    "user": {
+      "login": "dependabot[bot]",
+      "type": "Bot"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      },
+      {
+        "name": "Dependencies"
+      }
+    ]
+  },
+  {
+    "number": 71891,
+    "title": "Bump scientific-python/upload-nightly-action from 0.6.5 to 0.6.6",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T08:18:04Z",
+    "closed_at": "2026-11-04T09:17:03Z",
+    "comments": 0,
+    "user": {
+      "login": "dependabot[bot]",
+      "type": "Bot"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      },
+      {
+        "name": "Dependencies"
+      }
+    ]
+  },
+  {
+    "number": 71890,
+    "title": "Bump pypa/cibuildwheel from 4.3.4 to 4.3.5",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T08:17:58Z",
+    "closed_at": "2026-11-04T09:16:49Z",
+    "comments": 1,
+    "user": {
+      "login": "dependabot[bot]",
+      "type": "Bot"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      },
+      {
+        "name": "Dependencies"
+      }
+    ]
+  },
+  {
+    "number": 71889,
+    "title": "Bump astral-sh/setup-uv from 10.3.2 to 10.3.3",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T08:17:37Z",
+    "closed_at": "2026-11-04T09:19:39Z",
+    "comments": 0,
+    "user": {
+      "login": "dependabot[bot]",
+      "type": "Bot"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      },
+      {
+        "name": "Dependencies"
+      }
+    ]
+  },
+  {
+    "number": 71888,
+    "title": "BUG: raise a clear error for tzinfo objects with an undeterminable offset (GH#71485)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-04T04:09:08Z",
+    "closed_at": "2026-11-04T09:40:08Z",
+    "comments": 5,
+    "user": {
+      "login": "ryan1234814",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71887,
+    "title": "BUG: Series.str.get_dummies adds \"NaN\" / \"\" column for categorical / Arrow-backed strings",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-03T23:33:48Z",
+    "closed_at": null,
+    "comments": 4,
+    "user": {
+      "login": "rhshadrach",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Missing-data"
+      },
+      {
+        "name": "Reshaping"
+      }
+    ]
+  },
+  {
+    "number": 71886,
+    "title": "BUG: resample with BusinessHour raises or mislabels bins (GH#12351)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:43:27Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Frequency"
+      },
+      {
+        "name": "Resample"
+      }
+    ]
+  },
+  {
+    "number": 71884,
+    "title": "BUG: DataFrame.plot with tuple/ndarray/Series style plotted the styles as data (GH#46289)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:35:35Z",
+    "closed_at": "2026-11-04T16:30:01Z",
+    "comments": 1,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Visualization"
+      }
+    ]
+  },
+  {
+    "number": 71883,
+    "title": "REGR: reading from self-closing urllib3 streams raised \"I/O operation on closed file\"",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:45Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "IO Data"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "IO CSV"
+      },
+      {
+        "name": "IO JSON"
+      }
+    ]
+  },
+  {
+    "number": 71882,
+    "title": "BUG: read_csv parallel path lost MultiIndex columns for tuple names",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:41Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "IO CSV"
+      }
+    ]
+  },
+  {
+    "number": 71881,
+    "title": "BUG: DataFrameGroupBy.resample(on=) misaligns selection on non-default index (GH#59350)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:39Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Groupby"
+      },
+      {
+        "name": "Resample"
+      }
+    ]
+  },
+  {
+    "number": 71880,
+    "title": "BUG: read_csv c engine header=None with callable usecols (GH#71880)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:36Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "IO CSV"
+      }
+    ]
+  },
+  {
+    "number": 71879,
+    "title": "BUG: plotting tz-aware datetimes with NaT raises ConversionError (GH#64613)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:24Z",
+    "closed_at": "2026-11-05T01:42:57Z",
+    "comments": 2,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Visualization"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Timezones"
+      },
+      {
+        "name": "Still Needs Manual Backport"
+      }
+    ]
+  },
+  {
+    "number": 71878,
+    "title": "DOC: describe extension dtypes in Parquet pandas metadata spec (GH#42968)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:20Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      },
+      {
+        "name": "IO Parquet"
+      }
+    ]
+  },
+  {
+    "number": 71877,
+    "title": "BUG: Timedelta string parsing drops a decimal comma",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:17Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Timedelta"
+      }
+    ]
+  },
+  {
+    "number": 71876,
+    "title": "TST: plotting tz-aware values with NaT for pyarrow, x-axis and axis units",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:15Z",
+    "closed_at": "2026-11-06T21:58:33Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Visualization"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Timezones"
+      }
+    ]
+  },
+  {
+    "number": 71875,
+    "title": "BUG: DataFrame.agg list raising ArrowInvalid with large arrow int results",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:14Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Apply"
+      },
+      {
+        "name": "Arrow"
+      }
+    ]
+  },
+  {
+    "number": 71874,
+    "title": "DEPR: default startingMonth of QuarterBegin and BQuarterBegin (GH#8435)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:09Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Frequency"
+      },
+      {
+        "name": "Deprecate"
+      }
+    ]
+  },
+  {
+    "number": 71873,
+    "title": "REGR: pyarrow read_csv parse_dates stringifies a non-date index_col",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:08Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "IO CSV"
+      },
+      {
+        "name": "Arrow"
+      }
+    ]
+  },
+  {
+    "number": 71872,
+    "title": "BUG: SparseArray unsupported-unit timedelta64 arithmetic and from_indices validation (GH#64808 follow-up)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:07Z",
+    "closed_at": "2026-11-06T18:33:01Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Sparse"
+      }
+    ]
+  },
+  {
+    "number": 71871,
+    "title": "DOC: explain how Index.slice_locs uses step (GH#26544)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:34:03Z",
+    "closed_at": "2026-11-04T16:36:39Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      },
+      {
+        "name": "Index"
+      }
+    ]
+  },
+  {
+    "number": 71870,
+    "title": "BUG: NaN converted to NA for nullable dtypes under future.distinguish_nan_and_na",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:33:54Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Missing-data"
+      },
+      {
+        "name": "NA - MaskedArrays"
+      }
+    ]
+  },
+  {
+    "number": 71869,
+    "title": "ENH: floor/ceil to a single step of a date-anchored frequency (GH#15303)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T20:33:54Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Enhancement"
+      },
+      {
+        "name": "Datetime"
+      },
+      {
+        "name": "Frequency"
+      }
+    ]
+  },
+  {
+    "number": 71868,
+    "title": "Backport PR #71865 on branch 3.1.x (REGR: ensure map() with datetime-like dtype gives writeable result)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T17:51:08Z",
+    "closed_at": "2026-11-03T19:11:30Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Apply"
+      }
+    ]
+  },
+  {
+    "number": 71867,
+    "title": "BUG: Mapping categorical dtypes to list fails (TypeError: unhashable type: 'list')",
+    "state": "closed",
+    "is_pull_request": false,
+    "created_at": "2026-11-03T17:25:23Z",
+    "closed_at": "2026-11-04T10:48:44Z",
+    "comments": 4,
+    "user": {
+      "login": "behrenhoff",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Needs Triage"
+      }
+    ]
+  },
+  {
+    "number": 71865,
+    "title": "REGR: ensure map() with datetime-like dtype gives writeable result",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T16:08:46Z",
+    "closed_at": "2026-11-03T17:50:44Z",
+    "comments": 1,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Regression"
+      },
+      {
+        "name": "Apply"
+      }
+    ]
+  },
+  {
+    "number": 71863,
+    "title": "Backport PR #71572 on branch 3.1.x (BLD: don't include moments_simd.hpp in moments_scalar.cpp)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T14:56:46Z",
+    "closed_at": "2026-11-03T19:12:15Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Build"
+      }
+    ]
+  },
+  {
+    "number": 71862,
+    "title": "CI: revert python-dateutil<3 pin in ASAN/LSAN job",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T14:53:19Z",
+    "closed_at": "2026-11-03T17:23:16Z",
+    "comments": 1,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      }
+    ]
+  },
+  {
+    "number": 71861,
+    "title": "Backport PR #71495 on branch 3.1.x (BUG: support python-dateutil 3.0 tzfile (GH#71459))",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T14:50:12Z",
+    "closed_at": "2026-11-03T16:49:38Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Timezones"
+      },
+      {
+        "name": "Compat"
+      }
+    ]
+  },
+  {
+    "number": 71860,
+    "title": "DOC: avoid system-ui in default font-family for the docs (revert upstream theme change)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T14:30:13Z",
+    "closed_at": "2026-11-03T18:45:45Z",
+    "comments": 5,
+    "user": {
+      "login": "jorisvandenbossche",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Docs"
+      }
+    ]
+  },
+  {
+    "number": 71858,
+    "title": "BUG: read_csv pyarrow dtype dictionary omitting an index column",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T06:58:20Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "LionStone-1",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71857,
+    "title": "DOC: fix docstring typos in tslibs/timezones.pyx",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-03T05:39:04Z",
+    "closed_at": "2026-11-03T16:05:33Z",
+    "comments": 2,
+    "user": {
+      "login": "sharathkumar18143-hash",
+      "type": "User"
+    },
+    "labels": []
+  },
+  {
+    "number": 71853,
+    "title": "BUG: DataFrame(frozendict(...)) silently treats keys as row values (Python 3.15 builtin frozendict)",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-02T23:10:01Z",
+    "closed_at": null,
+    "comments": 8,
+    "user": {
+      "login": "zayunsna",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Constructors"
+      },
+      {
+        "name": "Obscure Inputs"
+      }
+    ]
+  },
+  {
+    "number": 71852,
+    "title": "BUG: read_sql_table and has_table ignore schema on an ADBC connection",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T19:37:30Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "alteralto",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71850,
+    "title": "Backport PR #71661 on branch 3.1.x (CI: Remove install requirement-dev.txt smoketest)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T17:27:51Z",
+    "closed_at": "2026-11-02T17:46:17Z",
+    "comments": 0,
+    "user": {
+      "login": "meeseeksmachine",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      }
+    ]
+  },
+  {
+    "number": 71848,
+    "title": "[pre-commit.ci] pre-commit autoupdate",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T16:35:13Z",
+    "closed_at": "2026-11-02T19:32:08Z",
+    "comments": 0,
+    "user": {
+      "login": "pre-commit-ci[bot]",
+      "type": "Bot"
+    },
+    "labels": [
+      {
+        "name": "Code Style"
+      }
+    ]
+  },
+  {
+    "number": 71845,
+    "title": "DOC: add FY5253 and FY5253Quarter constructor signatures",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T14:47:39Z",
+    "closed_at": "2026-11-03T16:49:02Z",
+    "comments": 2,
+    "user": {
+      "login": "Wrethis",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71844,
+    "title": "PERF: Speed up DataFrame.to_csv with a formatted DatetimeIndex",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T14:44:47Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "idan-friedman",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71843,
+    "title": "PERF: DataFrame.to_csv with date_format remains slow for a DatetimeIndex",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-02T13:35:05Z",
+    "closed_at": null,
+    "comments": 2,
+    "user": {
+      "login": "idan-friedman",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "IO CSV"
+      }
+    ]
+  },
+  {
+    "number": 71842,
+    "title": "BUG: json_normalize max_level KeyError for non-string mapping keys (GH#71755)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T12:14:36Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "ege-arhan",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71841,
+    "title": "REGR: treat path-like objects with read/write but no __iter__ as paths",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T10:45:33Z",
+    "closed_at": "2026-11-02T10:45:52Z",
+    "comments": 1,
+    "user": {
+      "login": "Xander-AJ",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71840,
+    "title": "BUG: DataFrame.fillna with dict/Series and axis=1 on dtypes that can hold the value (GH#71197)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-02T06:37:24Z",
+    "closed_at": null,
+    "comments": 2,
+    "user": {
+      "login": "Huang-404-Q",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71839,
+    "title": "CI: pandas-stubs tests fail against pandas nightly",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-02T03:58:16Z",
+    "closed_at": null,
+    "comments": 7,
+    "user": {
+      "login": "github-actions[bot]",
+      "type": "Bot"
+    },
+    "labels": [
+      {
+        "name": "CI"
+      },
+      {
+        "name": "Typing"
+      }
+    ]
+  },
+  {
+    "number": 71837,
+    "title": "BUG: respect min_rows=1 in DataFrame.to_string truncation",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T22:59:08Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "minjungsung",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71836,
+    "title": "BUG: DataFrameGroupBy.__getitem__ with a MultiIndex tuple key (GH#58282)",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T22:54:34Z",
+    "closed_at": null,
+    "comments": 1,
+    "user": {
+      "login": "simpleqt",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Needs Issue Assignment"
+      }
+    ]
+  },
+  {
+    "number": 71835,
+    "title": "BUG: Can't set a pint quantity scalar as index",
+    "state": "open",
+    "is_pull_request": false,
+    "created_at": "2026-11-01T22:16:35Z",
+    "closed_at": null,
+    "comments": 3,
+    "user": {
+      "login": "andrewgsavage",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "Needs Triage"
+      }
+    ]
+  },
+  {
+    "number": 71834,
+    "title": "BUG: DataFrame.equals with nested Series/DataFrame objects",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T21:23:12Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "BismarkA17",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Awaiting Review"
+      }
+    ]
+  },
+  {
+    "number": 71833,
+    "title": "BUG: DataFrame.idxmax wrong row for nullable boolean with NA",
+    "state": "open",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T21:11:03Z",
+    "closed_at": null,
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "NA - MaskedArrays"
+      },
+      {
+        "name": "Reduction Operations"
+      }
+    ]
+  },
+  {
+    "number": 71832,
+    "title": "TST: subplots string title is a suptitle above the top axes (GH#29459)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T21:10:45Z",
+    "closed_at": "2026-11-03T15:23:48Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Testing"
+      },
+      {
+        "name": "Visualization"
+      }
+    ]
+  },
+  {
+    "number": 71831,
+    "title": "BUG: unary op on object/string column in eval/query with numexpr (GH#45876)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T21:09:54Z",
+    "closed_at": "2026-11-03T15:23:18Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "expressions"
+      }
+    ]
+  },
+  {
+    "number": 71830,
+    "title": "BUG: query/eval with unprefixed Timestamp/datetime calls (GH#50442)",
+    "state": "closed",
+    "is_pull_request": true,
+    "created_at": "2026-11-01T21:09:35Z",
+    "closed_at": "2026-11-03T15:24:48Z",
+    "comments": 0,
+    "user": {
+      "login": "jbrockmendel",
+      "type": "User"
+    },
+    "labels": [
+      {
+        "name": "Bug"
+      },
+      {
+        "name": "expressions"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "order_id": "00417",
+    "customer": {
+      "name": "Hana",
+      "country": "France"
+    },
+    "items": [
+      {
+        "sku": "A1",
+        "qty": 2
+      },
+      {
+        "sku": "B2",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "order_id": "00418",
+    "customer": {
+      "name": "Lucía",
+      "country": "Spain"
+    },
+    "items": [
+      {
+        "sku": "C3",
+        "qty": 5
+      }
+    ]
+  }
+]
